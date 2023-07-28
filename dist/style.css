@@ -32,6 +32,9 @@ body {
 }
 
 .main {
+    background-color: rgba(7, 7, 7, 0.6);
+    padding: 25px;
+    border-radius: 12px;
     display: flex;
     flex-direction: column;
     color: #F0F7F4;
@@ -59,6 +62,7 @@ a {
 .hero {
     font-size: 4rem;
     font-weight: bold;
+    color: orange;
 }
 
 .small {
@@ -72,7 +76,28 @@ a {
     font-size: 1.4rem;
     appearance: none;
     background-color: #3C3C3C;
-    color: #F0CF65;
+    color: #d6b750;
     border-radius: 8px;
     border: 2px solid #1E1D1D;
+    transition-duration: 0.2s;
+}
+
+#order:hover {
+    transform: scale(1.1);
+    background-color: #373636;
+}
+
+.info {
+    display: flex;
+    height: 20vh;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    gap: 40px;
+    color: rgb(191, 132, 23);
+}
+
+.location, .hours {
+    display: flex;
+    flex-direction: column;
 }
