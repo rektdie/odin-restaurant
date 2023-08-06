@@ -102,3 +102,75 @@ a {
     display: flex;
     flex-direction: column;
 }
+
+.menu {
+    margin: 20px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    row-gap: 80px;
+    column-gap: 200px;
+    margin-bottom: 8%;
+}
+
+.food {
+    height: 200px;
+    width: 300px;
+    background-color: rgba(7, 7, 7, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 20px;
+    gap: 10px;
+    border: 5px solid grey;
+    border-radius: 8px;
+}
+
+.food-name {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 2rem;
+}
+
+
+.ingridients {
+    color: rgba(255, 255, 255, 0.729);
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.img-food {
+    margin-top: -30px;
+    height: 150px;
+    width: 150px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+
+.price {
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 3rem;
+    color: orange;
+}
+
+.contactsInfo {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(7, 7, 7, 0.6);
+    padding: 25px;
+    border-radius: 12px;
+    margin-bottom: 300px;
+}
+
+.contactsInfo > h2 {
+    color: white;
+    font-size: 3rem;
+}
